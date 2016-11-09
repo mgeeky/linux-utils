@@ -7,7 +7,8 @@ At the moment there is:
 
 - `lindump` - simple process memory dumping utility based on ptrace
 
-```:: lindump v0.1
+```
+:: lindump v0.1
 Simple Linux process memory dumping utility based on ptrace
 Mariusz B., '16
 
