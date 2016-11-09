@@ -334,7 +334,7 @@ int parse_opts(int argc, char **argv) {
         g_params.stop += g_params.start;
       }
 
-      if(0 != strcmp(g_params.outdir, "-")) {
+      if(g_params.outdir && 0 != strcmp(g_params.outdir, "-")) {
         printf("Dumping: 0x%lx-0x%lx (%d bytes)\n", 
                 g_params.start, g_params.stop, (g_params.stop-g_params.start));
       }
