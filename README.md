@@ -27,3 +27,6 @@ Options:
 	-v	Verbose output.
 	-h	This cruft
 ```
+
+- `dlresolve` - dynamic symbol resolve utility useful while in need of obtainin symbol's address and it's offset relative to the libc's base (handy while crafting ASLR exploits)
+
