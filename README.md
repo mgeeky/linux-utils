@@ -30,3 +30,10 @@ Options:
 
 - `dlresolve` - dynamic symbol resolve utility useful while in need of obtainin symbol's address and it's offset relative to the libc's base (handy while crafting ASLR exploits)
 
+```
+./dlresolve system
+[+] libc comes from:		/lib/x86_64-linux-gnu/libc-2.19.so
+[+] libc loaded at:		0x7f44e2b24000
+[+] system located at:		0x7f44e2b65490
+[+] Offset from libc base:	0x00041490
+```
